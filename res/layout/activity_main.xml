@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent">  
+             
+            <com.baidu.mapapi.map.MapView android:id="@+id/bmapsView"  
+                    android:layout_width="fill_parent"  
+                    android:layout_height="fill_parent"  
+                    android:clickable="true" />
+
+            <Button
+                android:id="@+id/local_bnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/local" />
+
+            <TextView
+                android:id="@+id/showpos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp" />
+  
+</RelativeLayout>  
